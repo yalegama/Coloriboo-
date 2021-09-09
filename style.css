@@ -18,7 +18,7 @@
 .navbar__logo {
   display: flex;
   margin: 20px;
-  font-size: 2rem;
+  font-size: 2.5rem;
   list-style-type: none;
   text-decoration: none;
   align-items: center;
@@ -48,4 +48,60 @@
 }
 .navbar a:hover {
   color: #9518fc;
+}
+
+/* Head Container */
+.head__container {
+  background: #000000;
+  padding: 300px;
+  height: 850px;
+  display: block;
+}
+.head__container h1 {
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  font-size: 100px;
+  color: #fff;
+}
+.head__container .descripton {
+  font-size: 60px;
+  color: #fff;
+  text-align: center;
+  padding: 15px;
+  /* color: #da22ff; */
+}
+.head__container .descripton {
+  color: #da22ff;
+}
+.head__container .main__button {
+  align-items: flex-end;
+  width: 120px;
+  height: 50px;
+  background-color: #fff;
+  text-align: center;
+  cursor: pointer;
+  margin-left: 550px;
+  background-color: darkblue;
+  color: #fff;
+  border-radius: 20px;
+}
+.head__container .main__button:hover {
+  background-color: red;
+  color: #fff;
+  padding: 16px;
+}
+.head__container .descripton clr {
+  color: brown;
+}
+/* About Us */
+.about__us {
+  background-color: #131313;
+  height: 500px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.image__section {
+  color: seashell;
+  background-image: linear-gradient(to top, #ff087b 0%, #ed1a52 100%);
 }
