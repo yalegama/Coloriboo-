@@ -97,11 +97,31 @@
 /* About Us */
 .about__us {
   background-color: #131313;
-  height: 500px;
+  height: 800px;
   display: grid;
   grid-template-columns: 1fr 1fr;
+  color: #fff;
 }
 .image__section {
-  color: seashell;
-  background-image: linear-gradient(to top, #ff087b 0%, #ed1a52 100%);
+  color: #131313;
+}
+.about__us .image__section img {
+  height: 600px;
+  width: 800px;
+  padding: 120px;
+  margin-left: 100px;
+  border-radius: 20px;
+}
+.first__line {
+  padding: 40px;
+  text-transform: uppercase;
+  font-size: 2rem;
+}
+.second__line {
+  padding: 40px;
+  text-transform: capitalize;
+  font-size: 6rem;
+}
+.third__section {
+  padding: 40px;
 }
