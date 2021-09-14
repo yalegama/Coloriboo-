@@ -125,3 +125,30 @@
 .third__section {
   padding: 40px;
 }
+
+/* Services Section */
+.services {
+  display: flex;
+}
+.service__head {
+}
+.service__body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.service__wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  justify-content: center;
+  align-items: center;
+}
+.service__card {
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 30vh;
+  background-color: black;
+  background-color: blanchedalmond;
+}
