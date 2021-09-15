@@ -129,8 +129,9 @@
 /* Service Section */
 .service__section {
   background-color: #131313;
-  display: flex;
   padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .car__section {
   display: grid;
@@ -138,9 +139,53 @@
 }
 .card__area {
   background-color: #da22ff;
-  padding: 50px;
+  padding: 100px;
+  height: 40vh;
 }
 .card__area1 {
   background-color: blue;
-  padding: 50px;
+  padding: 100px;
+  height: 40vh;
+}
+.card__area2 {
+  background-color: #ff8177;
+  padding: 100px;
+  height: 40vh;
+}
+.card__area3 {
+  background-color: brown;
+  padding: 100px;
+  height: 40vh;
+}
+#buttonCard {
+  margin-top: 20px;
+  width: 200px;
+  height: 30px;
+  background-color: #000000;
+  color: #fff;
+  cursor: pointer;
+  border: solid;
+}
+#buttonCard:hover {
+  background-color: red;
+}
+/* sign up Section */
+
+.signup__section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 50vh;
+}
+.signup__text__section {
+  background-color: aqua;
+}
+.signup__image__section {
+  background-color: brown;
+}
+
+/* Sign Up Section */
+.signup__text__head {
+  text-align: center;
+  justify-content: center;
+  margin-top: 250px;
 }
