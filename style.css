@@ -126,29 +126,21 @@
   padding: 40px;
 }
 
-/* Services Section */
-.services {
+/* Service Section */
+.service__section {
+  background-color: #131313;
   display: flex;
+  padding: 20px;
 }
-.service__head {
-}
-.service__body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.service__wrapper {
+.car__section {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr;
-  justify-content: center;
-  align-items: center;
 }
-.service__card {
-  justify-content: center;
-  align-items: center;
-  width: 300px;
-  height: 30vh;
-  background-color: black;
-  background-color: blanchedalmond;
+.card__area {
+  background-color: #da22ff;
+  padding: 50px;
+}
+.card__area1 {
+  background-color: blue;
+  padding: 50px;
 }
